@@ -1,6 +1,8 @@
 # extendXarray
 Provides higher level functionality to the Python xarray project by integrating methods from GDAL and OGR.
 
+**PSA** This project will be published under the name "extendXarray". I wanted to add a (probably ineffective) layer of anonymity between personal projects and work projects for the short term. 
+
 ### Why? 
 
 I was scrambling to prepare some results for AGU and having a hard time finding pre-packaged methods for rasterizing shapefiles against MODIS data arrays. This package aims to leverage GDAL/OGR vector processing tools to simplify geosciences research that requires vector/raster processing (e.g. shapefile masking, zonal statistics, regional weighting, etc.)
