@@ -1,0 +1,6 @@
+xarray
+numpy
+osgeo
+gdal
+ogr
+osr
