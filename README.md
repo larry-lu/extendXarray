@@ -1,7 +1,7 @@
 # extendXarray
 Provides higher level functionality to the Python xarray project by integrating methods from GDAL and OGR.
 
-**PSA** This project will be published under the name "extendXarray". I wanted to add a (probably ineffective) layer of anonymity between personal projects and work projects for the short term. 
+This project will be published under the name "extendXarray". I wanted to add a (probably ineffective) layer of anonymity between personal projects and work projects for the short term. 
 
 ### Why? 
 
