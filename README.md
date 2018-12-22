@@ -1,4 +1,4 @@
-# Project VectorMan: a cover for extendXarray
+# Project VectorMan: A cover for extendXarray
 Provides higher level functionality to the Python xarray project by integrating methods from GDAL and OGR.
 
 The goal of this project is to provide simple functions for integrating vector processing tools available in GDAL/OGR with the incredibly powerful n-dimensional array processing capabilities of `xarray` and other members of the pydata.org environment. I expect the project to ultimately be published under the name "extendXarray".
