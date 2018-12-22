@@ -5,11 +5,11 @@ The goal of this project is to provide simple functions for integrating vector p
 
 ### Why? 
 
-I was scrambling to prepare some results for AGU and having a hard time finding pre-packaged methods for rasterizing shapefiles against MODIS data arrays. This package aims to leverage GDAL/OGR vector processing tools to simplify geosciences research that requires vector/raster processing (e.g. shapefile masking, zonal statistics, regional weighting, etc.)
+I was scrambling to prepare some results for AGU and was having a hard time finding pre-packaged methods for rasterizing shapefiles against MODIS data arrays. This package aims to leverage GDAL/OGR vector processing tools to simplify geosciences research that requires vector/raster processing (e.g. shapefile masking, zonal statistics, regional weighting, etc.)
 
 ### Status
 
-This project is in its infancy. Just one simple, robust class for rasterizing shapefiles (and soon other vector objects) against input `xarray.Dataset` objects with methods for outputting to other conventient `xarray` data structures.
+This project is in its infancy. One simple, robust class for rasterizing shapefiles (and soon other vector objects) against input `xarray.Dataset` objects with methods for returning other conventient `xarray` and `numpy` data structures.
 
 See the demo in the Jupyter Notebook:
 [examples/class_GridVectors.ipynb](examples/class_GridVectors.ipynb)
