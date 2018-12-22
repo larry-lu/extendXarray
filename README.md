@@ -12,7 +12,7 @@ This project gives a set of GDAL/OGR vector processing functions on top of `xarr
 Just one class for rasterizing shapefiles (other polygons soon) against input `xarray.Dataset` objects with methods for returning convenient `xarray` and `numpy` data structures.
 
 See demo in the Jupyter Notebook:
-[examples/examples_GridShp.ipynb](examples/examples_GridShp.ipynb)
+[examples_GridShp.ipynb](examples_GridShp.ipynb)
 
 ------------------------------------
 
