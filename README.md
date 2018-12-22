@@ -22,7 +22,7 @@ See the demo in the Jupyter Notebook:
 *Jupyter Notebook example of using `extendXarray.asDatasetCoords()` to rasterize a shapefile and add the array to the input dataset as a new coordinate variable:*
 ![fig2](docs/img/asDatasetCoordFig.PNG)
 
-##### GridVectors()
+#### GridVectors()
 
 ```
 class GridVectors(object):
