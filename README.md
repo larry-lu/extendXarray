@@ -11,3 +11,9 @@ Project is in its infancy. Only one class so far. Simple but robust class for ra
 
 See the demo in the Jupyter Notebook:
 [examples/class_GridVectors.ipynb](examples/class_GridVectors.ipynb)
+
+*Jupyter Notebook example of using `extendXarray.asDatasetVariable()` to rasterize a shapefile and add the array to the input dataset as a new variable:*
+![fig1](docs/img/asDatasetVariableFig.png)
+
+*Jupyter Notebook example of using `extendXarray.asDatasetCoords()` to rasterize a shapefile and add the array to the input dataset as a new coordinate variable:*
+![fig2](docs/img/asDatasetCoordFig.png)
