@@ -2,7 +2,7 @@ import xarray , numpy
 from osgeo import gdal , ogr , osr
 
 ###################################################################################################
-### class GridVectors()
+### class GridShp()
 #
 # what it do:
 #
@@ -16,7 +16,7 @@ from osgeo import gdal , ogr , osr
 #  SEE THE JUPYTER NOTEBOOK EXAMPLES
 ###################################################################################################
 
-class GridVectors(object):
+class GridShp(object):
     
     # ----------------------------------------------------------------------------------------------
     # object: create empty gdal raster layer in memory that matches input xarray.Dataset

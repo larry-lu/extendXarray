@@ -1,0 +1,33 @@
+{
+    "grid_mapping": "crs",
+    "flag_values": [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26],
+    "flag_meanings": [
+		"NoData",
+        "Hot_Continental_Regime_Mountains",
+        "Marine_Division",
+        "Marine_Regime_Mountains",
+        "Mediterranean_Division",
+        "Mediterranean_Regime_Mountains",
+        "Prairie_Division",
+        "Rainforest_Regime_Mountains",
+        "Savanna_Division",
+        "Savanna_Regime_Mountains",
+        "Subarctic_Division",
+        "Subarctic_Regime_Mountains",
+        "Subtropical_Division",
+        "Subtropical_Regime_Mountains",
+        "Temperate_Desert_Division",
+        "Temperate_Desert_Regime_Mountains",
+        "Temperate_Steppe_Division",
+        "Temperate_Steppe_Regime_Mountains",
+        "Tropical/Subtropical_Desert_Division",
+        "Tropical/Subtropical_Regime_Mountains",
+        "Tropical/Subtropical_Steppe_Division",
+        "Tundra_Division",
+        "Tundra_Regime_Mountains",
+        "Warm_Continental_Division",
+        "Warm_Continental_Regime_Mountains",
+        "Hot_Continental_Division"
+	],
+    "_FillValue": 0
+}

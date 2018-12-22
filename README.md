@@ -12,22 +12,22 @@ This project gives a set of GDAL/OGR vector processing functions on top of `xarr
 Just one class for rasterizing shapefiles (other polygons soon) against input `xarray.Dataset` objects with methods for returning convenient `xarray` and `numpy` data structures.
 
 See demo in the Jupyter Notebook:
-[examples/class_GridVectors.ipynb](examples/class_GridVectors.ipynb)
+[examples/examples_GridShp.ipynb](examples/examples_GridShp.ipynb)
 
 ------------------------------------
 
-*Jupyter Notebook example of using `GridVectors.asDatasetVariable()` to rasterize a shapefile and add the array to the input dataset as a new variable:*
+*Jupyter Notebook example of using `GridShp.asDatasetVariable()` to rasterize a shapefile and add the array to the input dataset as a new variable:*
 ![fig1](docs/img/asDatasetVariableFig.PNG)
 
 ------------------------------------
 
-*Jupyter Notebook example of using `GridVectors.asDatasetCoords()` to rasterize a shapefile and add the array to the input dataset as a new coordinate variable:*
+*Jupyter Notebook example of using `GridShp.asDatasetCoords()` to rasterize a shapefile and add the array to the input dataset as a new coordinate variable:*
 ![fig2](docs/img/asDatasetCoordFig.PNG)
 
-#### GridVectors()
+#### GridShp()
 
 ```
-class GridVectors(object):
+class GridShp(object):
     
     # ----------------------------------------------------------------------------------------------
     # object: create empty gdal raster layer in memory that matches input xarray.Dataset

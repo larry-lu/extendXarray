@@ -1,6 +1,0 @@
-{
-    "grid_mapping": "crs",
-    "flag_values": [2,3,4,5,6],
-	"flag_meanings": "most_dry dry avg humid most_humid",
-    "_FillValue": 0
-}
