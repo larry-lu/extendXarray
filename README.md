@@ -1,7 +1,7 @@
 # Project VectorMan: a cover for extendXarray
 Provides higher level functionality to the Python xarray project by integrating methods from GDAL and OGR.
 
-This project will be published under the name "extendXarray". I wanted to add a (probably ineffective) layer of anonymity between personal projects and work projects for the short term. 
+The goal of this project is to provide simple functions for integrating vector processing tools available in GDAL/OGR with the incredibly powerful n-dimensional array processing capabilities of `xarray` and other members of the pydata.org environment. I expect the project to ultimately be published under the name "extendXarray".
 
 ### Why? 
 
@@ -9,7 +9,7 @@ I was scrambling to prepare some results for AGU and having a hard time finding 
 
 ### Status
 
-Project is in its infancy. Only one class so far. Simple but robust class for rastering shapefile against input `xarray.Dataset` objects with methods for outputting to several `xarray` data structures.
+This project is in its infancy. Just one simple, robust class for rasterizing shapefiles (and soon other vector objects) against input `xarray.Dataset` objects with methods for outputting to other conventient `xarray` data structures.
 
 See the demo in the Jupyter Notebook:
 [examples/class_GridVectors.ipynb](examples/class_GridVectors.ipynb)
